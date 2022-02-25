@@ -12,3 +12,12 @@ fábrica de métodos, por isso o nome do padrão. Nesta fábrica, ao inves de li
 da implementação seja conhecida apenas o suficiente, garantindo segurança no código. 
 
 No método main, ao invés de chamarmos a classe através do operador new, instanciamos a classe MedidasFactory e atravez dela todas as operações são criadas. 
+
+
+
+Singleton
+
+é um dos padrões de design mais simples em Java. Ele se enquadra no padrão criacional.
+
+Esse padrão envolve uma única classe responsável por criar um objeto, assegurando que apenas um único objeto seja criado. Esse classe fornece uma maneira de acessar seu único objeto que pode ser acessado diretamente sem a necessidade de instanciar o objeto da classe.
+
